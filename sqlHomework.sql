@@ -28,15 +28,15 @@ CREATE TABLE Albums (
 INSERT INTO songs
     (name, album_id)
 VALUES
-    ('Money', 1),  -- The Dark Side of the Moon
+    ('Money', 1),  
     ('Time', 1),
-    ('Come Together', 2),  -- Abbey Road
+    ('Come Together', 2),  
     ('Here Comes the Sun', 2),
-    ('Hotel California', 3),  -- Hotel California
+    ('Hotel California', 3),  
     ('Life in the Fast Lane', 3),
-    ('Born in the U.S.A.', 4),  -- Born in the U.S.A.
+    ('Born in the U.S.A.', 4),  
     ('Dancing in the Dark', 4),
-    ('Bored to Death', 5),  -- California
+    ('Bored to Death', 5),  
     ("She\'s Out of Her Mind", 5)
 ;
  
