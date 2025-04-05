@@ -14,6 +14,17 @@ CREATE TABLE songs (
     FOREIGN KEY (album_id) REFERENCES Albums(id)
 );
 
+CREATE TABLE Albums (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(70) NOT NULL,
+    artist VARCHAR(70) NOT NULL,
+    year_published INTEGER NOT NULL
+);
+
+/* 
+ * TODO: Insert at least 4 rows of data into the songs table. You can change up the albums as well. :)
+ */
+
 INSERT INTO songs
     (name, album_id)
 VALUES
@@ -28,17 +39,6 @@ VALUES
     ('Bored to Death', 5),  -- California
     ("She\'s Out of Her Mind", 5)
 ;
-
-CREATE TABLE Albums (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name VARCHAR(70) NOT NULL,
-    artist VARCHAR(70) NOT NULL,
-    year_published INTEGER NOT NULL
-);
-
-/* 
- * TODO: Insert at least 4 rows of data into the songs table. You can change up the albums as well. :)
- */
  
  INSERT INTO Albums
      (name, artist, year_published)
